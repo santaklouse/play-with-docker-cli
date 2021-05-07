@@ -3,8 +3,15 @@
 *Play-With-Docker CLI*
 
 ---
+## Dependencies
+_torsocks_
 ## Install
-`go build -v -i pwd-cli.go`
+`make`
+
+## Usage
+1) change Play With Docker session url in `pwd-cli.sh` file 
+2) `./pwd-cli.sh`
+3) ...Profit!
 
 ## Test
 ![](assets/usage.png)

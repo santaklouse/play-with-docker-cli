@@ -1,0 +1,14 @@
+2021/05/28-13:21:47.265 3aea Recovering log #163
+2021/05/28-13:21:47.265 3aea Level-0 table #165: started
+2021/05/28-13:21:47.270 3aea Level-0 table #165: 314 bytes OK
+2021/05/28-13:21:47.273 3aea Delete type=3 #161
+2021/05/28-13:21:47.273 3aea Delete type=0 #163
+2021/05/28-13:21:47.273 3aea Compacting 4@0 + 1@1 files
+2021/05/28-13:21:47.275 3aea Generated table #167@0: 10 keys, 529 bytes
+2021/05/28-13:21:47.275 3aea Compacted 4@0 + 1@1 files => 529 bytes
+2021/05/28-13:21:47.276 3aea compacted to: files[ 0 1 0 0 0 0 0 ]
+2021/05/28-13:21:47.277 3aea Delete type=2 #165
+2021/05/28-13:21:47.277 3aea Delete type=2 #154
+2021/05/28-13:21:47.277 3aea Delete type=2 #157
+2021/05/28-13:21:47.277 3aea Delete type=2 #162
+2021/05/28-13:21:47.277 3aea Delete type=2 #152

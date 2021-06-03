@@ -29,7 +29,12 @@ if [[ $RESPONSE_CODE != "200" ]]; then
     export PWD_URL
     [ ! -z $DEBUG ] && echo 'Done.'
 fi
+
 export PWD_URL
+
+# check created nodes and create if no nodes
+#./pwd-cli.sh nodes | [[ `cat` == *"error"* ]] && torsocks ./pwd-cli create
+
 torsocks ./pwd-cli $@
 
 #ssh trought tor -> pwd node

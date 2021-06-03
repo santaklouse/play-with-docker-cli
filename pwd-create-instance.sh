@@ -2,4 +2,7 @@
 
 export PWD_URL=`./create-instance/browser.js`
 echo $PWD_URL > .pwd_url
-echo "Created: ${PWD_URL}"
+[ -z $PWD_URL ] || exit 0
+
+echo "Create instance error"
+exit 1
